@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+    padding: 2rem;
+  }
+  
+  .logo {
+    width: 120px;
+    margin-bottom: 1rem;
+  }
+  
+  .input {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .button {
+    width: 100%;
+    max-width: 400px;
+    background-color: #a00000;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #870000;
+  }
+  
+  .link {
+    margin-top: 1rem;
+    color: #a00000;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .map, .agenda {
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 100%;
+    max-width: 400px;
+    background-color: #f9f9f9;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
